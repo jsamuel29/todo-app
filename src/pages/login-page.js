@@ -21,7 +21,6 @@ class Login extends Component {
 
 
     createUser() {
-        console.log(this.state.password)
         let user = {
             username: this.state.username,
             password: this.state.password
