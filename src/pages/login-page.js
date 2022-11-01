@@ -57,7 +57,7 @@ class Login extends Component {
   
     render() {
         return (
-            <div>
+            <div className="adjustment">
                 <h1>Personal Todo List login</h1>
 
                 <div>{this.state.errorText}</div>
